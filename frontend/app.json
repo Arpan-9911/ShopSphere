@@ -4,11 +4,11 @@
     "slug": "ShopSphere",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/logo.jpg",
+    "icon": "./assets/logo.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/logo.jpg",
+      "image": "./assets/logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -16,7 +16,8 @@
       "fallbackToCacheTimeout": 0,
       "enabled": true,
       "checkOnLaunch": "ALWAYS",
-      "checkAutomatically": "ON_LOAD"
+      "checkAutomatically": "ON_LOAD",
+      "url": "https://u.expo.dev/65e6fa9e-e247-40c4-b80f-fdeca5aa0d11"
     },
     "runtimeVersion": {
       "policy": "appVersion"
@@ -26,7 +27,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/logo.jpg",
+        "foregroundImage": "./assets/logo.png",
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
@@ -37,7 +38,7 @@
       "backgroundColor": "#ffffff"
     },
     "web": {
-      "favicon": "./assets/logo.jpg"
+      "favicon": "./assets/logo.png"
     },
     "extra": {
       "eas": {
